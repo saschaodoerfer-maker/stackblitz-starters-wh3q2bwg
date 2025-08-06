@@ -7,10 +7,10 @@ export default function Home() {
       <p>Wähle deinen Zugang:</p>
 
       <div style={{ display: 'flex', gap: '2rem', marginTop: '2rem' }}>
-        <Link href="/verkaeufer.tsx">
+        <Link href="/verkaeufer">
           <button style={buttonStyle}>Ich bin Verkäufer</button>
         </Link>
-        <Link href="/veranstalter.tsx">
+        <Link href="/veranstalter">
           <button style={buttonStyle}>Ich bin Veranstalter</button>
         </Link>
       </div>
